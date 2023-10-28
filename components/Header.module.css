@@ -1,0 +1,54 @@
+.imageback {
+  background: url("../public/images/premium_photo-1674059169475-fadd7bc13899.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(211, 211, 211, 0.5);
+}
+
+@-webkit-keyframes SHOW-BOX {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes SHOW-BOX {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes SHOW-BOX {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes SHOW-BOX {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.showBox {
+  -webkit-animation: SHOW-BOX 2s ease;
+  -moz-animation: SHOW-BOX 2s ease;
+  -o-animation: SHOW-BOX 2s ease;
+  animation: SHOW-BOX 2s ease;
+}
